@@ -1,6 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
-  color: #f5f5f5;
+  font-family:  bold "Poppins", sans-serif;
+  color: #9dff00;
   background-color: #ffffff;
 }
 
@@ -53,7 +53,7 @@ body {
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../images/hero-bg.jpeg);
+  background-image: url(../images/slider-img\ .jpeg);
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@ a:focus {
   width: 1px;
   height: 50px;
   border: none;
-  background-color: #ffffff;
+  background-color: #468f52;
 }
 
 .slider_section .slider_number-container .number-box {
@@ -239,11 +239,13 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #9dff00;
   text-transform: uppercase;
 }
 
 .slider_section .detail_box h2 {
+  padding-top: 170px;
+  color: rgb(4, 5, 4);
   margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,7 +271,7 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 5rem;
-  margin-bottom: 30px;
+  
 }
 
 .slider_section .detail_box a {
@@ -277,7 +279,7 @@ a:focus {
   padding: 8px 40px;
   background-color: #0d0806;
   border: 1px solid #0d0806;
-  color: #ffffff;
+  color: #00bb1f;
   border-radius: 0;
   margin: 35px 0;
 }
@@ -288,6 +290,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
+  padding-top: 110px;
   width: 100%;
 }
 
@@ -306,7 +309,7 @@ a:focus {
   opacity: 1;
   background-color: transparent;
   border: none;
-  color: #c0c0c0;
+  color: #00bb1f;
   font-size: 24px;
   display: none;
 }
@@ -404,7 +407,7 @@ a:focus {
   padding: 8px 40px;
   background-color: #0d0806;
   border: 1px solid #0d0806;
-  color: #ffffff;
+  color: #00bb1f;
   border-radius: 0;
   margin-top: 35px;
 }
@@ -510,7 +513,7 @@ a:focus {
   padding: 8px 40px;
   background-color: #0d0806;
   border: 1px solid #0d0806;
-  color: #ffffff;
+  color: #00bb1f;
   border-radius: 0;
 }
 
@@ -726,7 +729,7 @@ a:focus {
   outline: none;
   border: none;
   border-radius: 30px;
-  color: #fff;
+  color: #00bb1f;
   background: -webkit-gradient(linear, left top, left bottom, from(#f5e47b), to(#fb930a));
   background: linear-gradient(to bottom, #f5e47b, #fb930a);
   margin-top: 35px;
